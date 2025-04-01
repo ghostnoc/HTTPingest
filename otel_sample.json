@@ -1,0 +1,45 @@
+{
+  "resourceMetrics": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "hostId",
+            "value": { "stringValue": "test-host-123" }
+          }
+        ]
+      },
+      "scopeMetrics": [
+        {
+          "scope": {
+            "attributes": [
+              {
+                "key": "datasourceId",
+                "value": { "stringValue": "ds-98765" }
+              }
+            ]
+          },
+          "metrics": [
+            {
+              "name": "TestMetric1",
+              "gauge": {
+                "dataPoints": [
+                  {
+                    "timeUnixNano": "1715263558360000000",
+                    "asDouble": 42.0,
+                    "attributes": [
+                      {
+                        "key": "label",
+                        "value": { "stringValue": "example" }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+[
+  {
+    "name": "PostgresConnectionString",
+    "value": "host=lmotelpgcsm.postgres.database.azure.com dbname=otel user=pgadmin password=YourStrongP@ssw0rd sslmode=require"
+  }
+]
